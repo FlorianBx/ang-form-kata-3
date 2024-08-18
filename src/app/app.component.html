@@ -1,0 +1,14 @@
+<main>
+  <nav class="flex justify-end mr-4 relative">
+    <span class="text-3xl font-extrabold absolute left-4 mt-2 rounded-full bg-black text-white p-4">FK</span>
+    <ul class="w-60">
+      <li class="flex justify-center items-center gap-4 mt-4">
+        <a class="bg-black text-white py-2 px-4 rounded" [routerLink]="['']">Home</a>
+        <a class="bg-black text-white py-2 px-4 rounded" [routerLink]="['reactive-form']">Reactive Form</a>
+      </li>
+    </ul>
+  </nav>
+  <main class="flex justify-center mt-8">
+    <router-outlet></router-outlet>
+  </main>
+</main>
